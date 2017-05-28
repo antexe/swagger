@@ -7,7 +7,7 @@
 import Foundation
 
 open class SwaggerClientAPI {
-    open static var basePath = "https://api.uber.com/v1"
+    open static var basePath = "http://noside.southeastasia.cloudapp.azure.com/v1"
     open static var credential: URLCredential?
     open static var customHeaders: [String:String] = [:]
     static var requestBuilderFactory: RequestBuilderFactory = AlamofireRequestBuilderFactory()
